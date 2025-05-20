@@ -19,4 +19,18 @@ body {
   outline: 1px solid red;
 }
 
+.hidden {
+  position: absolute;
+  left: -99999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  visibility: hidden;
+  /*вместо display: none;*/
+}
+
 /* header */
+
+.wrapper {
+  padding: 0px 10px;
+}
