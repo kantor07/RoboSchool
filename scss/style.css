@@ -31,4 +31,59 @@ body {
 /* header */
 .wrapper {
   padding: 0px 10px;
+}
+
+.header {
+  min-height: 615px;
+  background: #141024;
+}
+
+.header-img {
+  margin: 0px 15px;
+  width: 273px;
+  height: 273px;
+  position: absolute;
+  top: 255px;
+  border: 27.8927px solid #ffffff;
+  border-radius: 160px;
+  box-sizing: border-box;
+}
+
+.img-header {
+  position: relative;
+  left: 70px;
+  width: 180px;
+  height: 320px;
+}
+
+.nav {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-link {
+  margin-top: 10px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 160%;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btn-nav {
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.08);
+  mix-blend-mode: normal;
+  opacity: 0.4;
+  border-radius: 10px;
+}
+
+.fa-phone {
+  display: none;
+  width: 20px;
+  height: 20px;
 }/*# sourceMappingURL=style.css.map */
