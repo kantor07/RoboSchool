@@ -140,3 +140,86 @@ body {
 
   margin-bottom: 5px;
 }
+
+.header-title {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 160%;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.header-text {
+  width: 250px;
+  padding: 0px 30px;
+
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.feedback-btn-header {
+  translate: 0px -64px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 54px;
+  gap: 10px;
+
+  width: 300px;
+  height: 60px;
+
+  background: #d52027;
+  border-radius: 5px;
+  border: none;
+
+  /* Записаться на курс */
+
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+
+  text-align: center;
+
+  color: #ffffff;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* main */
+/* section info about us */
+
+.main-title,
+.main-text {
+  font-family: "Jost";
+  font-style: normal;
+
+  font-size: 20px;
+  line-height: 160%;
+
+  color: #141024;
+}
+
+.main-text {
+  font-weight: 400;
+}
+
+.main-title {
+  font-weight: 600;
+}
