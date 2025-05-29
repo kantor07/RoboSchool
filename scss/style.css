@@ -73,17 +73,51 @@ body {
   text-decoration: none;
 }
 
+.feedback-form-nav {
+  margin: 0px;
+}
+
 .btn-nav {
   width: 44px;
   height: 44px;
-  background: rgba(255, 255, 255, 0.08);
+  box-sizing: border-box;
   mix-blend-mode: normal;
   opacity: 0.4;
   border-radius: 10px;
+  border: 1px solid transparent;
+  background: linear-gradient(#141024, #141024) padding-box, linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0)) border-box;
 }
 
 .fa-phone {
-  display: none;
-  width: 20px;
-  height: 20px;
+  color: #ffffff;
+}
+
+.feedback-btn-nav {
+  position: absolute;
+  right: 65px;
+}
+
+.burger-menu span {
+  display: block;
+  width: 26px;
+  height: 2px;
+  background-color: #ffffff;
+}
+
+.burger-menu::before,
+.burger-menu::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: #ffffff;
+}
+
+.burger-menu::after {
+  width: 13px;
+  margin-top: 5px;
+}
+
+.burger-menu::before {
+  width: 26px;
+  margin-bottom: 5px;
 }/*# sourceMappingURL=style.css.map */
