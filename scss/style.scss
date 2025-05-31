@@ -208,8 +208,13 @@ body {
 
 /* section info about us */
 
-.info-about-us {
+.info-about {
+  padding: 40px 0px 50px 0px;
   text-align: center;
+}
+
+.about-us {
+  padding: 0px;
 }
 
 .quantity-info {
@@ -230,9 +235,7 @@ body {
 
 /* section info about course */
 
-.info-about-course {
-  padding: 40px 0px 50px 0px;
-  text-align: center;
+.about-course {
   background: #f9f9f9;
 }
 
@@ -314,4 +317,73 @@ body {
   height: 12px;
 
   color: #141024;
+}
+
+/* section info about teachers */
+.teacher-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.teacher-cart {
+  text-align: left;
+}
+
+.teacher-img {
+  width: 220px;
+  height: 306px;
+
+  border-radius: 20px;
+}
+
+.teacher-name {
+  @include font(20px, 600);
+
+  color: #141024;
+}
+
+.teacher-specialty {
+  @include font(14px, 400);
+  color: rgba(20, 16, 36, 0.7);
+}
+
+.details-link {
+  @include font(16px, 400);
+  color: #d52027;
+
+  text-decoration: none;
+}
+
+.teacher-next {
+  display: none;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 40px;
+
+  width: 300px;
+  height: 5px;
+
+  background: rgba(20, 16, 36, 0.08);
+  border-radius: 40px;
+}
+
+.btn-pagination {
+  translate: 2px 1px;
+  width: 140px;
+  height: 3px;
+
+  border-radius: 40px;
+  border: none;
+
+  &:hover {
+    background: #141024;
+  }
+}
+
+.is-active {
+  background: #141024;
 }
