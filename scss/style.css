@@ -150,7 +150,7 @@ body {
   font-weight: 400;
 }
 
-.buy-form-link {
+.header-link {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -159,8 +159,7 @@ body {
   height: 60px;
   background: #d52027;
   border-radius: 5px;
-  border: none;
-  /* Записаться на курс */
+  /* Текст кнопки */
   font-family: "Jost";
   font-style: normal;
   color: #ffffff;
@@ -171,11 +170,9 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
-  text-decoration: none;
-}
-
-.header-link {
+  color: #ffffff;
   translate: 0px -57px;
+  text-decoration: none;
 }
 
 /* main */
@@ -458,10 +455,29 @@ body {
   color: #141024;
 }
 
-.programm-link {
-  margin: 40px 20px;
+.program-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   width: 260px;
   height: 60px;
+  background: #d52027;
+  border-radius: 5px;
+  /* Текст кнопки */
+  font-family: "Jost";
+  font-style: normal;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 160%;
+  font-weight: 400;
+  text-align: center;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: #ffffff;
+  margin: 40px 20px;
+  text-decoration: none;
 }
 
 /* section application form */
@@ -491,14 +507,33 @@ body {
 
 .input-form,
 .form-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   width: 300px;
   height: 60px;
+  background: #d52027;
+  border-radius: 5px;
+  /* Текст кнопки */
+  font-family: "Jost";
+  font-style: normal;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 160%;
+  font-weight: 400;
+  text-align: center;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: #ffffff;
   border: none;
 }
 
 .input-form {
   margin: 10px 0px;
   background: #f6f6f6;
+  text-decoration: none;
 }
 
 .input-form::-moz-placeholder {
@@ -528,8 +563,6 @@ body {
 }
 
 .form-btn {
-  width: 300px;
-  height: 60px;
   background: #141024;
-  border: none;
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */

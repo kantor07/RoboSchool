@@ -43,6 +43,31 @@ body {
   font-weight: $font-weight;
 }
 
+@mixin btn($width, $height) {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: $width;
+  height: $height;
+
+  background: #d52027;
+  border-radius: 5px;
+
+  /* Текст кнопки */
+
+  @include font(16px, 400);
+
+  text-align: center;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  color: #ffffff;
+}
+
 /* header */
 
 .wrapper {
@@ -165,34 +190,11 @@ body {
   @include font(16px, 400);
 }
 
-.buy-form-link {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-
-  width: 300px;
-  height: 60px;
-
-  background: #d52027;
-  border-radius: 5px;
-  border: none;
-
-  /* Записаться на курс */
-
-  @include font(16px, 400);
-
-  text-align: center;
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-
-  text-decoration: none;
-}
-
 .header-link {
+  @include btn(300px, 60px);
+
   translate: 0px -57px;
+  text-decoration: none;
 }
 
 /* main */
@@ -443,11 +445,11 @@ body {
   color: #141024;
 }
 
-.programm-link {
+.program-link {
+  @include btn(260px, 60px);
   margin: 40px 20px;
 
-  width: 260px;
-  height: 60px;
+  text-decoration: none;
 }
 
 /* section application form */
@@ -470,8 +472,7 @@ body {
 
 .input-form,
 .form-btn {
-  width: 300px;
-  height: 60px;
+  @include btn(300px, 60px);
 
   border: none;
 }
@@ -480,6 +481,7 @@ body {
   margin: 10px 0px;
 
   background: #f6f6f6;
+  text-decoration: none;
 }
 
 .input-form::placeholder {
@@ -493,9 +495,6 @@ body {
 }
 
 .form-btn {
-  width: 300px;
-  height: 60px;
-
   background: #141024;
-  border: none;
+  color: #ffffff;
 }
