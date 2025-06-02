@@ -397,7 +397,7 @@ body {
   background: #141024;
 }
 
-/* */
+/* section info about program price */
 
 .wrapper-program-info {
   margin-bottom: 50px;
@@ -448,4 +448,54 @@ body {
 
   width: 260px;
   height: 60px;
+}
+
+/* section application form */
+
+.wrapper-discount {
+  height: 535px;
+
+  background: #d52027;
+
+  text-align: center;
+}
+
+.discount-header {
+  @include font(30px, 600);
+}
+
+.discount-terms {
+  @include font(16px, 400);
+}
+
+.input-form,
+.form-btn {
+  width: 300px;
+  height: 60px;
+
+  border: none;
+}
+
+.input-form {
+  margin: 10px 0px;
+
+  background: #f6f6f6;
+}
+
+.input-form::placeholder {
+  padding: 0px 10px;
+  @include font(18px, 400);
+
+  line-height: 26px;
+
+  color: rgba(40, 41, 68, 0.7);
+  text-align: start;
+}
+
+.form-btn {
+  width: 300px;
+  height: 60px;
+
+  background: #141024;
+  border: none;
 }

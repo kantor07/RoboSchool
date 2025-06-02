@@ -401,7 +401,7 @@ body {
   background: #141024;
 }
 
-/* */
+/* section info about program price */
 .wrapper-program-info {
   margin-bottom: 50px;
   text-align: center;
@@ -462,4 +462,74 @@ body {
   margin: 40px 20px;
   width: 260px;
   height: 60px;
+}
+
+/* section application form */
+.wrapper-discount {
+  height: 535px;
+  background: #d52027;
+  text-align: center;
+}
+
+.discount-header {
+  font-family: "Jost";
+  font-style: normal;
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 160%;
+  font-weight: 600;
+}
+
+.discount-terms {
+  font-family: "Jost";
+  font-style: normal;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 160%;
+  font-weight: 400;
+}
+
+.input-form,
+.form-btn {
+  width: 300px;
+  height: 60px;
+  border: none;
+}
+
+.input-form {
+  margin: 10px 0px;
+  background: #f6f6f6;
+}
+
+.input-form::-moz-placeholder {
+  padding: 0px 10px;
+  font-family: "Jost";
+  font-style: normal;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 160%;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(40, 41, 68, 0.7);
+  text-align: start;
+}
+
+.input-form::placeholder {
+  padding: 0px 10px;
+  font-family: "Jost";
+  font-style: normal;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 160%;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(40, 41, 68, 0.7);
+  text-align: start;
+}
+
+.form-btn {
+  width: 300px;
+  height: 60px;
+  background: #141024;
+  border: none;
 }/*# sourceMappingURL=style.css.map */
