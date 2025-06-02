@@ -114,8 +114,11 @@ body {
   text-decoration: none;
 }
 
-.feedback-form-nav {
-  margin: 0px;
+.nav-menu {
+  width: 100px;
+
+  display: flex;
+  justify-content: space-between;
 }
 
 .btn-nav {
@@ -139,8 +142,8 @@ body {
 }
 
 .feedback-btn-nav {
-  position: absolute;
-  right: 65px;
+  padding: 10px 10px 10px 15px;
+  text-decoration: none;
 }
 
 .burger-menu span {
@@ -327,10 +330,6 @@ body {
 }
 
 /* section info about teachers */
-
-.wrapper-teacher-info {
-  width: 320px;
-}
 
 .teacher-info {
   display: flex;
