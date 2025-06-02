@@ -123,7 +123,7 @@ body {
 }
 
 /* section header main */
-.header-main {
+.wrapper-header-main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -150,8 +150,7 @@ body {
   font-weight: 400;
 }
 
-.feedback-btn-header {
-  translate: 0px -57px;
+.buy-form-link {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -172,6 +171,11 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
+  text-decoration: none;
+}
+
+.header-link {
+  translate: 0px -57px;
 }
 
 /* main */
@@ -395,4 +399,67 @@ body {
 
 .is-active {
   background: #141024;
+}
+
+/* */
+.wrapper-program-info {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.program-cart {
+  margin: 10px 0px 30px 0px;
+  padding-bottom: 20px;
+  width: 300px;
+  height: 420px;
+  border: 1px solid rgba(20, 16, 36, 0.2);
+  border-radius: 20px;
+}
+.program-cart:hover {
+  background: #141024;
+}
+.program-cart:hover .program-name {
+  color: #ffffff;
+}
+.program-cart:hover .program-price {
+  color: #ffffff;
+}
+.program-cart:hover .program-text {
+  color: #ffffff;
+}
+
+.program-name {
+  font-family: "Jost";
+  font-style: normal;
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 160%;
+  font-weight: 600;
+  color: #141024;
+}
+
+.program-price {
+  font-family: "Jost";
+  font-style: normal;
+  color: #ffffff;
+  font-size: 50px;
+  line-height: 160%;
+  font-weight: 600;
+  color: #141024;
+}
+
+.program-text {
+  font-family: "Jost";
+  font-style: normal;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 160%;
+  font-weight: 400;
+  color: #141024;
+}
+
+.programm-link {
+  margin: 40px 20px;
+  width: 260px;
+  height: 60px;
 }/*# sourceMappingURL=style.css.map */
