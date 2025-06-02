@@ -320,6 +320,11 @@ body {
 }
 
 /* section info about teachers */
+
+.wrapper-teacher-info {
+  width: 320px;
+}
+
 .teacher-info {
   display: flex;
   justify-content: space-between;
@@ -373,7 +378,7 @@ body {
 
 .btn-pagination {
   translate: 2px 1px;
-  width: 140px;
+  width: 150px;
   height: 3px;
 
   border-radius: 40px;
