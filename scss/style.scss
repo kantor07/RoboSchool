@@ -419,16 +419,29 @@ body {
 .details-text {
   box-sizing: border-box;
 
-  /* position: absolute;*/
-  width: 300px;
-  height: 489px;
-  left: 10px;
-  top: 40px;
+  position: absolute;
+  top: 2300px;
+  left: 0px;
 
-  background: #ffffff;
+  transform: scale(0, 0);
+
+  transform-origin: right top;
+  transition: 0.5s;
+
+  width: 310px;
+
   border: 1px solid #f4f4f4;
   box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.teacher-details:hover .details-text {
+  transform: scale(1, 1);
+}
+
+.wrapper-details-teacher {
+  padding: 20px 0px 20px 20px;
 }
 
 .btn-details {
@@ -467,6 +480,10 @@ body {
 }
 
 .teacher-img-desc {
+  margin-right: 10px;
+
+  float: left;
+
   width: 60px;
   height: 88px;
 
@@ -479,6 +496,11 @@ body {
 
   color: #141024;
 }
+.teacher-name-desc,
+.teacher-specialty-desc {
+  padding-top: 5px;
+  margin: 0px;
+}
 
 .teacher-specialty-desc {
   @include font(12px, 400);
@@ -488,38 +510,115 @@ body {
   color: rgba(20, 16, 36, 0.7);
 }
 
+.social {
+  margin: 5px 0px 30px 0px;
+}
+
+.fa-facebook-f,
+.fa-instagram {
+  font-size: 15px;
+  border-radius: 33px;
+  background: rgba(20, 16, 36, 1);
+
+  color: rgba(218, 218, 218, 1);
+}
+
+.fa-facebook-f {
+  padding: 7px 10px;
+}
+
+.fa-instagram {
+  padding: 7px;
+}
+
+.list-scroll {
+  width: 265px;
+  border-radius: 40px;
+  border: 3px solid rgba(20, 16, 36, 0.08);
+  transform: rotate(-90deg) translate(-200px, 140px);
+}
+
+.list-scroll-active {
+  width: 90px;
+  border-radius: 40px;
+  border: 3px solid rgba(20, 16, 36, 1);
+  transform: rotate(-90deg) translate(-110px, 228px);
+}
+
+.list-title {
+  display: block;
+
+  width: 260px;
+  height: 45px;
+
+  background: #d52027;
+
+  /* Образование */
+
+  @include font(16px, 400);
+
+  text-align: center;
+  align-content: center;
+
+  color: #ffffff;
+}
+
+.list-title::-webkit-details-marker {
+  display: none;
+}
+
+.list-title::after {
+  content: "\f0dd";
+  font-family: "FontAwesome";
+  padding-left: 10px;
+
+  font-size: 7px;
+  position: relative;
+  top: -3px;
+}
+
+.list[open] > .list-title::after {
+  content: "\f0de";
+  font-family: "FontAwesome";
+
+  font-size: 7px;
+  position: relative;
+  top: 0px;
+}
+
+.list-text-title {
+  @include font(16px, 600);
+
+  color: #141024;
+}
+
+.list-text {
+  padding-right: 20px;
+  @include font(14px, 400);
+
+  color: #141024;
+}
+
 .teacher-next {
   display: none;
 }
 
-.pagination {
-  display: flex;
-  justify-content: space-between;
-
-  margin-top: 40px;
-
-  width: 300px;
-  height: 5px;
-
-  background: rgba(20, 16, 36, 0.08);
-  border-radius: 40px;
+.teachers-scroll {
+  margin-bottom: 50px;
 }
 
-.btn-pagination {
-  translate: 2px 1px;
-  width: 150px;
-  height: 3px;
-
+.scroll {
+  width: 290px;
   border-radius: 40px;
-  border: none;
-
-  &:hover {
-    background: #141024;
-  }
+  border: 5px solid rgba(20, 16, 36, 0.08);
+  transform: translate(10px, 40px);
 }
 
-.is-active {
-  background: #141024;
+.scroll-active {
+  width: 140px;
+  border-radius: 40px;
+  border: 3px solid rgba(20, 16, 36, 1);
+  transform: translate(12px, 32px);
 }
 
 /* section info about program price */
