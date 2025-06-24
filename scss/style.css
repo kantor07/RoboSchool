@@ -63,6 +63,12 @@ body {
   text-decoration: none;
 }
 
+.nav-company-phone,
+.header-menu {
+  transform: scale(0, 0);
+  position: absolute;
+}
+
 .nav-menu {
   width: 100px;
   display: flex;
@@ -170,7 +176,6 @@ body {
   line-height: 160%;
   font-weight: 600;
   text-align: center;
-  color: #ffffff;
   text-decoration: none;
 }
 
@@ -822,4 +827,62 @@ body {
   line-height: 160%;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.7);
+}
+
+@media screen and (min-width: 768px) {
+  .logo-link {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .header-menu {
+    position: relative;
+    transform: scale(1, 1);
+  }
+  .menu {
+    height: 50px;
+    width: 325px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .menu-link {
+    font-family: "Jost";
+    font-style: normal;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 160%;
+    font-weight: 400;
+    line-height: 100%;
+  }
+  .nav-menu {
+    transform: scale(0);
+    position: absolute;
+  }
+  .nav-company-phone {
+    position: relative;
+    font-family: "Jost";
+    font-style: normal;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 160%;
+    font-weight: 600;
+    transform: scale(1, 1) translate(-10px, -10px);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .logo-link {
+    font-size: 30px;
+  }
+  .nav-company-phone {
+    font-family: "Jost";
+    font-style: normal;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 160%;
+    font-weight: 600;
+    transform: translate(-10px, -25px);
+  }
+  .menu-link {
+    line-height: 160%;
+  }
 }/*# sourceMappingURL=style.css.map */
