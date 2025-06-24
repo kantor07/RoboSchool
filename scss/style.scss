@@ -167,7 +167,7 @@ body {
 /* section drop menu */
 
 .header-nav-menu {
-  width: 320px;
+  width: -webkit-fill-available;
   height: 617px;
 
   background: #141024;
@@ -184,7 +184,12 @@ body {
 
 .menu {
   list-style-type: none;
-  padding: 190px 80px;
+  height: 600px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .drop-btn-nav {
@@ -386,6 +391,7 @@ body {
 }
 
 .teacher-cart {
+  position: relative;
   text-align: left;
 }
 
@@ -420,7 +426,7 @@ body {
   box-sizing: border-box;
 
   position: absolute;
-  top: 2300px;
+  top: 0px;
   left: 0px;
 
   transform: scale(0, 0);
