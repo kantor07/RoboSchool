@@ -54,11 +54,11 @@ body {
 
 .logo-link {
   margin-top: 10px;
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 18px;
   line-height: 160%;
+  font-size: 18px;
   font-weight: 700;
   text-decoration: none;
 }
@@ -169,11 +169,11 @@ body {
 }
 
 .menu-link {
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 30px;
   line-height: 160%;
+  font-size: 30px;
   font-weight: 600;
   text-align: center;
   text-decoration: none;
@@ -188,22 +188,22 @@ body {
 }
 
 .header-title {
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 30px;
   line-height: 160%;
+  font-size: 30px;
   font-weight: 600;
 }
 
 .header-text {
   margin: 0px 0px 40px 0px;
   width: 250px;
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 16px;
   line-height: 160%;
+  font-size: 16px;
   font-weight: 400;
 }
 
@@ -218,11 +218,11 @@ body {
   background: #d52027;
   border-radius: 5px;
   /* Текст кнопки */
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 16px;
   line-height: 160%;
+  font-size: 16px;
   font-weight: 400;
   text-align: center;
   flex: none;
@@ -236,11 +236,11 @@ body {
 /* section info about us */
 .main-title,
 .main-text {
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 20px;
   line-height: 160%;
+  font-size: 20px;
   font-weight: 600;
   color: #141024;
 }
@@ -263,11 +263,11 @@ body {
 .quantity-info {
   margin: 30px 0px 10px 0px;
   padding: 0px;
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 60px;
   line-height: 160%;
+  font-size: 60px;
   font-weight: 600;
   line-height: 100%;
   color: #d52027;
@@ -275,11 +275,11 @@ body {
 
 .text-info {
   padding: 0px 15px;
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 16px;
   line-height: 160%;
+  font-size: 16px;
   font-weight: 400;
   color: rgba(20, 16, 36, 0.7);
 }
@@ -292,11 +292,11 @@ body {
 .main-info-header {
   margin: 0px;
   padding-bottom: 20px;
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 30px;
   line-height: 160%;
+  font-size: 30px;
   font-weight: 600;
   line-height: 140%;
   color: #141024;
@@ -310,22 +310,22 @@ body {
 
 .header-info {
   margin: 30px 0px 10px 0px;
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 20px;
   line-height: 160%;
+  font-size: 20px;
   font-weight: 600;
   color: #141024;
 }
 
 .text-info {
   margin: 0px;
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 16px;
   line-height: 160%;
+  font-size: 16px;
   font-weight: 400;
   color: rgba(20, 16, 36, 0.7);
 }
@@ -347,11 +347,11 @@ body {
 }
 
 .info-text {
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 14px;
   line-height: 160%;
+  font-size: 14px;
   font-weight: 400;
   color: #141024;
 }
@@ -393,31 +393,31 @@ body {
 }
 
 .teacher-name {
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 20px;
   line-height: 160%;
+  font-size: 20px;
   font-weight: 600;
   color: #141024;
 }
 
 .teacher-specialty {
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 14px;
   line-height: 160%;
+  font-size: 14px;
   font-weight: 400;
   color: rgba(20, 16, 36, 0.7);
 }
 
 .details-link {
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 16px;
   line-height: 160%;
+  font-size: 16px;
   font-weight: 400;
   color: #d52027;
   text-decoration: none;
@@ -485,11 +485,11 @@ body {
 }
 
 .teacher-name-desc {
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 16px;
   line-height: 160%;
+  font-size: 16px;
   font-weight: 600;
   color: #141024;
 }
@@ -501,11 +501,11 @@ body {
 }
 
 .teacher-specialty-desc {
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 12px;
   line-height: 160%;
+  font-size: 12px;
   font-weight: 400;
   line-height: 140%;
   color: rgba(20, 16, 36, 0.7);
@@ -551,11 +551,11 @@ body {
   height: 45px;
   background: #d52027;
   /* Образование */
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 16px;
   line-height: 160%;
+  font-size: 16px;
   font-weight: 400;
   text-align: center;
   align-content: center;
@@ -584,22 +584,22 @@ body {
 }
 
 .list-text-title {
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 16px;
   line-height: 160%;
+  font-size: 16px;
   font-weight: 600;
   color: #141024;
 }
 
 .list-text {
   padding-right: 20px;
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 14px;
   line-height: 160%;
+  font-size: 14px;
   font-weight: 400;
   color: #141024;
 }
@@ -661,31 +661,31 @@ body {
 }
 
 .program-name {
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 30px;
   line-height: 160%;
+  font-size: 30px;
   font-weight: 600;
   color: #141024;
 }
 
 .program-price {
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 50px;
   line-height: 160%;
+  font-size: 50px;
   font-weight: 600;
   color: #141024;
 }
 
 .program-text {
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 16px;
   line-height: 160%;
+  font-size: 16px;
   font-weight: 400;
   color: #141024;
 }
@@ -700,11 +700,11 @@ body {
   background: #d52027;
   border-radius: 5px;
   /* Текст кнопки */
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 16px;
   line-height: 160%;
+  font-size: 16px;
   font-weight: 400;
   text-align: center;
   flex: none;
@@ -723,20 +723,20 @@ body {
 }
 
 .discount-header {
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 30px;
   line-height: 160%;
+  font-size: 30px;
   font-weight: 600;
 }
 
 .discount-terms {
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 16px;
   line-height: 160%;
+  font-size: 16px;
   font-weight: 400;
 }
 
@@ -751,11 +751,11 @@ body {
   background: #d52027;
   border-radius: 5px;
   /* Текст кнопки */
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 16px;
   line-height: 160%;
+  font-size: 16px;
   font-weight: 400;
   text-align: center;
   flex: none;
@@ -773,11 +773,11 @@ body {
 
 .input-form::-moz-placeholder {
   padding: 0px 10px;
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 18px;
   line-height: 160%;
+  font-size: 18px;
   font-weight: 400;
   line-height: 26px;
   color: rgba(40, 41, 68, 0.7);
@@ -786,11 +786,11 @@ body {
 
 .input-form::placeholder {
   padding: 0px 10px;
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 18px;
   line-height: 160%;
+  font-size: 18px;
   font-weight: 400;
   line-height: 26px;
   color: rgba(40, 41, 68, 0.7);
@@ -811,46 +811,49 @@ body {
 
 .company-phone {
   margin: 20px 0px 40px 0px;
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 16px;
   line-height: 160%;
+  font-size: 16px;
   font-weight: 600;
 }
 
 .company-name {
-  font-family: "Jost";
+  font-family: "Jost", Arial, sans-serif;
   font-style: normal;
   color: #ffffff;
-  font-size: 14px;
   line-height: 160%;
+  font-size: 14px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.7);
 }
 
-@media screen and (min-width: 768px) {
-  .logo-link {
-    font-weight: 700;
-    font-size: 20px;
+@media screen and (min-width: 620px) {
+  .wrapper {
+    padding: 0px 20px;
+  }
+  /* header */
+  .header {
+    height: 405px;
   }
   .header-menu {
     position: relative;
     transform: scale(1, 1);
   }
   .menu {
-    height: 50px;
-    width: 325px;
+    height: 30px;
+    width: 230px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
   .menu-link {
-    font-family: "Jost";
+    font-family: "Jost", Arial, sans-serif;
     font-style: normal;
     color: #ffffff;
-    font-size: 20px;
     line-height: 160%;
+    font-size: 18px;
     font-weight: 400;
     line-height: 100%;
   }
@@ -860,29 +863,122 @@ body {
   }
   .nav-company-phone {
     position: relative;
-    font-family: "Jost";
+    font-family: "Jost", Arial, sans-serif;
     font-style: normal;
     color: #ffffff;
-    font-size: 20px;
     line-height: 160%;
+    font-size: 18px;
     font-weight: 600;
-    transform: scale(1, 1) translate(-10px, -10px);
+    transform: scale(1, 1) translate(0px, -10px);
+  }
+  /* header-main */
+  .header-title {
+    transform: translate(-140px, 60px);
+  }
+  .header-text {
+    transform: translate(-140px, 40px);
+  }
+  .img-header {
+    transform: translate(150px, -200px);
+  }
+  .header-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 60px;
+    background: #d52027;
+    border-radius: 5px;
+    /* Текст кнопки */
+    font-family: "Jost", Arial, sans-serif;
+    font-style: normal;
+    color: #ffffff;
+    line-height: 160%;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: #ffffff;
+    transform: translate(-140px, -240px);
+  }
+  /* main */
+  .teacher-next {
+    display: block;
+  }
+}
+@media screen and (min-width: 700px) {
+  /* header */
+  .logo-link {
+    font-size: 20px;
+  }
+  .menu {
+    width: 325px;
+  }
+  .menu-link {
+    font-size: 20px;
+  }
+  .nav-company-phone {
+    font-size: 20px;
+    transform: translate(-10px, -10px);
+  }
+  /* header-main */
+  .header-title {
+    font-size: 50px;
+  }
+  .header-text {
+    font-size: 20px;
+  }
+  .header-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 80px;
+    background: #d52027;
+    border-radius: 5px;
+    /* Текст кнопки */
+    font-family: "Jost", Arial, sans-serif;
+    font-style: normal;
+    color: #ffffff;
+    line-height: 160%;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: #ffffff;
+    transform: translate(-140px, -220px);
+  }
+  /* main */
+  .main-text,
+  .main-title {
+    font-size: 30px;
   }
 }
 @media screen and (min-width: 1024px) {
+  /* header */
   .logo-link {
     font-size: 30px;
   }
   .nav-company-phone {
-    font-family: "Jost";
+    font-family: "Jost", Arial, sans-serif;
     font-style: normal;
     color: #ffffff;
-    font-size: 30px;
     line-height: 160%;
+    font-size: 30px;
     font-weight: 600;
     transform: translate(-10px, -25px);
   }
   .menu-link {
     line-height: 160%;
+  }
+  /* header-main */
+  .header-title {
+    font-size: 70px;
   }
 }/*# sourceMappingURL=style.css.map */
