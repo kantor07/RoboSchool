@@ -112,7 +112,7 @@
       </div>
       <section class="info-about about-us" id="about-us">
         <h3 class="hidden">section info about us</h3>
-        <div class="wrapper">
+        <div class="wrapper wrapper-info-about">
           <div class="main-info-text">
             <p class="quantity-info">10</p>
             <p class="text-info">
@@ -137,8 +137,8 @@
       </section>
       <section class="info-about about-course" id="about-course">
         <h3 class="hidden">section info about course</h3>
-        <div class="wrapper">
-          <h2 class="main-info-header">Что вы получите после курса</h2>
+        <h2 class="main-info-header">Что вы получите после курса</h2>
+        <div class="wrapper wrapper-info-about">
           <div class="main-info-text">
             <h3 class="header-info">Удостоверение</h3>
             <p class="text-info">
@@ -278,7 +278,7 @@
               <p class="teacher-specialty">преподаватель по робототехнике</p>
               <div class="teacher-details">
                 <p class="details-link">Подробнее</p>
-                <!--div class="details-text">
+                <div class="details-text">
                   <button
                     type="button"
                     class="btn-details"
@@ -322,9 +322,12 @@
                         <h2 class="list-text-title">Курсы и тренинги</h2>
                         <p class="list-text">
                           Ноябрь 2020 — Февраль 2021<br />
-                          <p class="hidden"></p> Программа дополнительного
-                          образования «3D Моделирование» Место проведения:
-                          Институт дополнительного образования «Политех»
+                        </p>
+
+                        <p class="hidden">
+                          Программа дополнительного образования «3D
+                          Моделирование» Место проведения: Институт
+                          дополнительного образования «Политех»
                         </p>
                       </details>
 
@@ -352,7 +355,7 @@
                       </div>
                     </div>
                   </section>
-                </div!-->
+                </div>
               </div>
             </div>
           </div>
@@ -366,7 +369,7 @@
         <h3 class="hidden">section info about program price</h3>
         <div class="wrapper wrapper-program-info">
           <h2 class="main-info-header">Выберите нужный пакет</h2>
-          <div class="program-info">
+          <div class="program-info wrapper-info-about">
             <div class="program-cart">
               <h2 class="program-name">– PRO –</h2>
               <p class="program-price">
@@ -405,11 +408,12 @@
       <section class="application-form">
         <h3 class="hidden">section application form</h3>
         <div class="wrapper wrapper-discount">
-          <h2 class="discount-header">Запишитесь на курс со скидкой 10%</h2>
-          <p class="discount-terms">
-            Акция действительна до 10 марта 2022 года
-          </p>
-
+          <div class="application-title">
+            <h2 class="discount-header">Запишитесь на курс со скидкой 10%</h2>
+            <p class="discount-terms">
+              Акция действительна до 10 марта 2022 года
+            </p>
+          </div>
           <form action="#" class="form-aplication">
             <input type="text" class="input-form" placeholder="Имя" />
             <input type="tel" class="input-form" placeholder="Телефон" />

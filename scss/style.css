@@ -905,8 +905,54 @@ body {
     transform: translate(-140px, -240px);
   }
   /* main */
+  /* section info about us */
+  .wrapper-info-about {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main-info-text {
+    width: 50%;
+  }
+  /* section info about course */
+  .info-desc {
+    translate: 0px -85px;
+  }
+  /* section info about teachers */
   .teacher-next {
     display: block;
+  }
+  .teacher-cart {
+    position: static;
+  }
+  .details-text {
+    top: 1500px;
+    left: 150px;
+  }
+  /* section application form */
+  .wrapper-discount {
+    padding: 40px 20px;
+    display: flex;
+  }
+  /* footer */
+  .logo-link,
+  .company-phone,
+  .company-name,
+  .wrapper-footer {
+    padding: 0px;
+    margin: 0;
+  }
+  .wrapper-footer {
+    position: relative;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .company-phone {
+    order: 1;
+  }
+  .company-name {
+    position: absolute;
+    transform: translate(0px, 25px);
   }
 }
 @media screen and (min-width: 700px) {
@@ -958,6 +1004,22 @@ body {
   .main-text,
   .main-title {
     font-size: 30px;
+  }
+  /* section info about us */
+  .quantity-info {
+    font-family: "Jost", Arial, sans-serif;
+    font-style: normal;
+    color: #ffffff;
+    line-height: 160%;
+    font-size: 70px;
+    font-weight: 600;
+  }
+  .text-info {
+    font-size: 18px;
+  }
+  /* section info about program price */
+  .program-info {
+    flex-direction: row;
   }
 }
 @media screen and (min-width: 1024px) {
