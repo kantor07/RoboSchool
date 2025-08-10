@@ -966,6 +966,8 @@ body {
     font-size: 20px;
   }
   .menu {
+    padding: 0px;
+    margin-top: 20px;
     width: 325px;
   }
   .menu-link {
@@ -973,14 +975,22 @@ body {
   }
   .nav-company-phone {
     font-size: 20px;
-    transform: translate(-10px, -10px);
   }
   /* header-main */
+  .header {
+    height: 620px;
+  }
   .header-title {
+    margin: 0px;
     font-size: 50px;
+    transform: translate(-140px, 30px);
   }
   .header-text {
+    width: 370px;
     font-size: 20px;
+  }
+  .img-header {
+    transform: translate(180px, -202px);
   }
   .header-link {
     display: flex;
@@ -1003,7 +1013,7 @@ body {
     order: 0;
     flex-grow: 0;
     color: #ffffff;
-    transform: translate(-140px, -220px);
+    transform: translate(-140px, -250px);
   }
   /* main */
   .main-text,
