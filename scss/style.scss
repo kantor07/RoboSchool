@@ -18,8 +18,13 @@ body {
   margin: 0 auto;
 
   min-width: 280px;
-  max-width: 1920px;
+  max-width: 1160px;
   outline: 1px solid red;
+}
+
+.wrapper-footer,
+.wrapper-header {
+  max-width: 1920px;
 }
 
 .hidden {
@@ -76,8 +81,6 @@ body {
 }
 
 .header {
-  height: 620px;
-
   background: #141024;
 }
 
@@ -234,6 +237,8 @@ body {
 /* section header main */
 
 .wrapper-header-main {
+  padding: 45px 10px 40px 10px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -241,11 +246,12 @@ body {
 }
 
 .header-title {
+  margin: 0px;
+
   @include font(30px, 600);
 }
 
 .header-text {
-  margin: 0px 0px 40px 0px;
   width: 250px;
 
   @include font(16px, 400);
@@ -253,10 +259,10 @@ body {
 
 .header-link {
   margin-top: -50px;
-
   @include btn(300px, 60px);
 
   text-decoration: none;
+  order: 1;
 }
 
 /* main */
@@ -740,7 +746,7 @@ body {
 
 /* footer */
 
-.wrapper-footer {
+.footer {
   padding: 40px 0px 20px 0px;
 
   background: #141024;
@@ -765,10 +771,6 @@ body {
   }
 
   /* header */
-
-  .header {
-    height: 405px;
-  }
 
   .nav {
     height: 10px;
@@ -810,7 +812,7 @@ body {
   /* header-main */
 
   .header-title {
-    transform: translate(-140px, 60px);
+    transform: translate(-155px, 60px);
   }
 
   .header-text {
@@ -829,6 +831,7 @@ body {
   /* main */
 
   /* section info about us */
+
   .wrapper-info-about {
     display: flex;
     flex-wrap: wrap;
@@ -872,16 +875,18 @@ body {
   .logo-link,
   .company-phone,
   .company-name,
-  .wrapper-footer {
+  .footer {
     padding: 0px;
     margin: 0;
   }
 
-  .wrapper-footer {
+  .footer {
     position: relative;
 
     padding: 40px 20px;
+  }
 
+  .wrapper-footer {
     display: flex;
     justify-content: space-between;
   }
@@ -921,29 +926,58 @@ body {
   /* header-main */
 
   .header {
+    height: 520px;
+  }
+
+  .header-title {
+    transform: translate(-200px, 80px);
+  }
+
+  .header-text {
+    transform: translate(-180px, 70px);
+  }
+
+  .img-header {
+    width: 350px;
+    height: 420px;
+
+    transform: translate(170px, -175px);
+  }
+
+  .header-link {
+    transform: translate(-180px, -320px);
+  }
+}
+
+@media screen and (min-width: 890px) {
+  /* header-main */
+
+  .header {
     height: 620px;
   }
 
   .header-title {
     margin: 0px;
-
     font-size: 50px;
-    transform: translate(-140px, 30px);
+    transform: translate(-190px, 120px);
   }
 
   .header-text {
     width: 370px;
-
     font-size: 20px;
+    transform: translate(-190px, 120px);
   }
 
   .img-header {
-    transform: translate(180px, -202px);
+    width: 450px;
+    height: 520px;
+
+    transform: translate(220px, -187px);
   }
 
   .header-link {
     @include btn(260px, 80px);
-    transform: translate(-140px, -250px);
+    transform: translate(-240px, -350px);
   }
 
   /* main */
@@ -956,11 +990,17 @@ body {
   /* section info about us */
 
   .quantity-info {
-    @include font(70px, 600);
+    line-height: 160%;
+    font-size: 70px;
   }
 
   .text-info {
     font-size: 18px;
+  }
+
+  .info-about {
+    padding: 40px 0px 50px 0px;
+    text-align: left;
   }
 
   /* section info about program price */
@@ -991,5 +1031,11 @@ body {
 
   .header-title {
     font-size: 70px;
+  }
+
+  .header-text {
+    width: 370px;
+
+    font-size: 20px;
   }
 }
