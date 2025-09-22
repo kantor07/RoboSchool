@@ -772,7 +772,7 @@ body {
 }
 
 .input-form {
-  margin: 10px 0px;
+  margin-bottom: 10px;
   background: #f6f6f6;
   text-decoration: none;
 }
@@ -917,6 +917,9 @@ body {
   }
   /* main */
   /* section info about us */
+  .main-text {
+    padding: 55px 0px 30px 25px;
+  }
   .wrapper-info-about {
     display: flex;
     flex-wrap: wrap;
@@ -929,6 +932,12 @@ body {
     translate: 0px -85px;
   }
   /* section info about teachers */
+  .wrapper-teacher-info {
+    padding-left: 45px;
+  }
+  .teachers-scroll {
+    padding-left: 35px;
+  }
   .teacher-next {
     display: block;
   }
@@ -941,8 +950,11 @@ body {
   }
   /* section application form */
   .wrapper-discount {
-    padding: 40px 20px;
+    padding: 40px 20px 40px 45px;
     display: flex;
+  }
+  .wrapper-discount {
+    text-align: left;
   }
   /* footer */
   .logo-link,
@@ -1068,8 +1080,11 @@ body {
     flex-direction: row;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
   /* header */
+  .header {
+    height: 770px;
+  }
   .logo-link {
     font-size: 30px;
   }
@@ -1088,37 +1103,26 @@ body {
   /* header-main */
   .header-title {
     font-size: 70px;
+    transform: translate(-235px, 200px);
   }
   .header-text {
     width: 370px;
     font-size: 20px;
+    transform: translate(-305px, 200px);
+  }
+  .header-link {
+    font-size: 18px;
+    transform: translate(-360px, 275px);
+  }
+  .img-header {
+    width: 550px;
+    height: 620px;
+    transform: translate(330px, -198px);
   }
 }
 @media screen and (min-width: 1440px) {
   /* header */
-  .logo-link {
-    font-size: 30px;
-  }
-  .nav-company-phone {
-    font-family: "Jost", Arial, sans-serif;
-    font-style: normal;
-    color: #ffffff;
-    line-height: 160%;
-    font-size: 30px;
-    font-weight: 600;
-    transform: translate(-10px, -30px);
-  }
-  .menu-link {
-    line-height: 160%;
-  }
   /* header-main */
-  .header-title {
-    font-size: 70px;
-  }
-  .header-text {
-    width: 370px;
-    font-size: 20px;
-  }
   .img-header {
     width: 785px;
     height: 920px;
