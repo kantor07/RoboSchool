@@ -956,19 +956,19 @@ body {
   /* header-main */
 
   .header {
-    height: 620px;
+    height: 650px;
   }
 
   .header-title {
     margin: 0px;
     font-size: 50px;
-    transform: translate(-190px, 120px);
+    transform: translate(-190px, 150px);
   }
 
   .header-text {
     width: 370px;
     font-size: 20px;
-    transform: translate(-190px, 120px);
+    transform: translate(-190px, 150px);
   }
 
   .img-header {
@@ -980,7 +980,7 @@ body {
 
   .header-link {
     @include btn(260px, 80px);
-    transform: translate(-240px, -350px);
+    transform: translate(-245px, 225px);
   }
 
   /* main */
@@ -1023,7 +1023,7 @@ body {
   .nav-company-phone {
     @include font(30px, 600);
 
-    transform: translate(-10px, -25px);
+    transform: translate(-10px, -30px);
   }
 
   .menu-link {
@@ -1040,5 +1040,41 @@ body {
     width: 370px;
 
     font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  /* header */
+
+  .logo-link {
+    font-size: 30px;
+  }
+
+  .nav-company-phone {
+    @include font(30px, 600);
+
+    transform: translate(-10px, -30px);
+  }
+
+  .menu-link {
+    line-height: 160%;
+  }
+
+  /* header-main */
+
+  .header-title {
+    font-size: 70px;
+  }
+
+  .header-text {
+    width: 370px;
+
+    font-size: 20px;
+  }
+
+  .img-header {
+    width: 785px;
+    height: 920px;
+    transform: translate(0px, 0px);
   }
 }
