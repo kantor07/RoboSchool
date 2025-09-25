@@ -24,7 +24,7 @@ body {
 
 .wrapper-footer,
 .wrapper-header {
-  max-width: 1920px;
+  max-width: 1720px;
 }
 
 .hidden {
@@ -1080,11 +1080,32 @@ body {
 @media screen and (min-width: 1440px) {
   /* header */
 
+  .header {
+    height: 1080px;
+  }
+
   /* header-main */
+
+  .wrapper-header-main {
+    max-width: 1325px;
+  }
+
+  .header-title {
+    transform: translate(-400px, 270px);
+  }
+
+  .header-text {
+    width: 480px;
+    transform: translate(-415px, 260px);
+  }
+
+  .header-link {
+    transform: translate(-525px, 335px);
+  }
 
   .img-header {
     width: 785px;
     height: 920px;
-    transform: translate(0px, 0px);
+    transform: translate(285px, -156px);
   }
 }
