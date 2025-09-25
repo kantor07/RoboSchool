@@ -886,7 +886,9 @@ body {
     transform: translate(-140px, 110px);
   }
   .img-header {
-    transform: translate(150px, -100px);
+    width: 300px;
+    height: 350px;
+    transform: translate(150px, -130px);
   }
   .header-link {
     display: flex;
@@ -977,21 +979,6 @@ body {
   }
 }
 @media screen and (min-width: 700px) {
-  /* header */
-  .logo-link {
-    font-size: 20px;
-  }
-  .menu {
-    padding: 0px;
-    margin-top: 20px;
-    width: 325px;
-  }
-  .menu-link {
-    font-size: 20px;
-  }
-  .nav-company-phone {
-    font-size: 20px;
-  }
   /* header-main */
   .header {
     height: 520px;
@@ -1012,6 +999,22 @@ body {
   }
 }
 @media screen and (min-width: 890px) {
+  /* header */
+  .logo-link {
+    font-size: 20px;
+  }
+  .nav-company-phone {
+    font-size: 20px;
+  }
+  /* header-menu */
+  .menu {
+    padding: 0px;
+    margin-top: 20px;
+    width: 325px;
+  }
+  .menu-link {
+    font-size: 20px;
+  }
   /* header-main */
   .header {
     height: 650px;
