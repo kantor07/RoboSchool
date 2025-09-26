@@ -429,6 +429,9 @@ body {
 /* section details teacher */
 
 .details-text {
+  min-width: 300px;
+  max-width: 940px;
+
   box-sizing: border-box;
 
   position: absolute;
@@ -439,8 +442,6 @@ body {
 
   transform-origin: right top;
   transition: 0.5s;
-
-  width: 310px;
 
   border: 1px solid #f4f4f4;
   box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.05);
@@ -472,21 +473,21 @@ body {
   margin-top: 5px;
 
   display: block;
-  width: 18px;
+  width: 19px;
   height: 2px;
   background-color: rgb(20, 16, 36, 1);
   transform: rotate(40deg) translateY(-6px) translateX(-3px);
 }
 
 .btn-details::before {
-  margin: 5px 0px 4px 0px;
+  margin: 5px 0px 5px 0px;
   content: "";
   display: block;
 
   height: 2px;
   background-color: rgb(20, 16, 36, 1);
 
-  width: 18px;
+  width: 20px;
 
   transform: rotate(140deg);
 }
@@ -611,7 +612,8 @@ body {
   color: #141024;
 }
 
-.teacher-next {
+.teacher-two,
+.teacher-three {
   display: none;
 }
 
@@ -864,7 +866,7 @@ body {
     padding-left: 35px;
   }
 
-  .teacher-next {
+  .teacher-two {
     display: block;
   }
 
@@ -873,8 +875,9 @@ body {
   }
 
   .details-text {
-    top: 1500px;
-    left: 150px;
+    top: 1690px;
+    left: 10%;
+    right: 10%;
   }
 
   /* section application form */
@@ -948,6 +951,10 @@ body {
 }
 
 @media screen and (min-width: 960px) {
+  .wrapper {
+    padding: 0px 65px;
+  }
+
   /* header */
 
   .logo-link {
@@ -980,13 +987,13 @@ body {
   .header-title {
     margin: 0px;
     font-size: 50px;
-    transform: translate(-190px, 150px);
+    transform: translate(-235px, 150px);
   }
 
   .header-text {
     width: 370px;
     font-size: 20px;
-    transform: translate(-190px, 150px);
+    transform: translate(-230px, 150px);
   }
 
   .img-header {
@@ -998,7 +1005,7 @@ body {
 
   .header-link {
     @include btn(260px, 80px);
-    transform: translate(-245px, 225px);
+    transform: translate(-285px, 225px);
   }
 
   /* main */
@@ -1008,20 +1015,63 @@ body {
     font-size: 30px;
   }
 
+  .main-text {
+    padding: 110px 0px 0px 0px;
+    margin: 0px;
+  }
+
   /* section info about us */
 
   .quantity-info {
+    margin: 0px;
+
     line-height: 160%;
     font-size: 70px;
   }
 
   .text-info {
+    padding: 0px;
+
     font-size: 18px;
   }
 
   .info-about {
-    padding: 40px 0px 50px 0px;
     text-align: left;
+    padding: 120px 0px;
+  }
+
+  /* section info about course */
+
+  .main-info-header {
+    padding: 0px 0px 50px 0px;
+    font-size: 50px;
+  }
+
+  .header-info {
+    font-size: 24px;
+    padding-top: 0px;
+    margin: 0px;
+  }
+
+  .main-info-text-header {
+    padding-top: 30px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: start;
+  }
+
+  .header-info-img {
+    margin: 0px 0px 0px 15px;
+  }
+
+  .img-info {
+    padding-left: 11px;
+  }
+
+  /* section info about teachers */
+
+  .teacher-three {
+    display: block;
   }
 
   /* section info about program price */
