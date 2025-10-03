@@ -1233,13 +1233,44 @@ body {
     height: 620px;
     transform: translate(330px, -198px);
   }
+  /* section info about teachers */
+  .teacher-img {
+    width: 340px;
+  }
+  .program-link {
+    width: 260px;
+  }
   .teacher-three {
     display: block;
+  }
+  .scroll {
+    width: 350px;
+  }
+  .scroll-active {
+    width: 220px;
+  }
+  /* section info about program price */
+  .program-cart {
+    width: 260px;
+  }
+  /* section application form */
+  .application-title {
+    width: 475px;
+  }
+  .form-aplication {
+    margin-left: 65px;
   }
   .input-form,
   .form-btn {
     width: 500px;
     height: 65px;
+  }
+  /* footer */
+  .company-phone {
+    font-size: 30px;
+  }
+  .company-name {
+    transform: translate(0px, 40px);
   }
 }
 @media screen and (min-width: 1440px) {
@@ -1265,5 +1296,16 @@ body {
     width: 785px;
     height: 920px;
     transform: translate(285px, -156px);
+  }
+  /* section info about teachers */
+  .teacher-img {
+    width: 360px;
+  }
+  .program-link {
+    width: 280px;
+  }
+  /* section info about program price */
+  .program-cart {
+    width: 280px;
   }
 }/*# sourceMappingURL=style.css.map */
