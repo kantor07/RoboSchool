@@ -651,15 +651,16 @@ body {
 
 .program-cart {
   margin: 10px 0px 30px 0px;
-  padding-bottom: 20px;
-  width: 300px;
-  height: 420px;
+  padding: 40px;
+
+  width: 220px;
+  height: 340px;
 
   border: 1px solid rgba(20, 16, 36, 0.2);
   border-radius: 20px;
 
   &:hover {
-    background: #141024;
+    background: rgba(20, 16, 36, 1);
   }
 
   &:hover .program-name {
@@ -671,14 +672,20 @@ body {
   &:hover .program-text {
     color: #ffffff;
   }
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .program-name {
+  margin: 0px;
   @include font(30px, 600);
   color: #141024;
 }
 
 .program-price {
+  margin: 0px;
   @include font(50px, 600);
   color: #141024;
 }
@@ -689,8 +696,7 @@ body {
 }
 
 .program-link {
-  @include btn(260px, 60px);
-  margin: 40px 20px;
+  @include btn(220px, 60px);
 
   text-decoration: none;
 }
@@ -878,6 +884,18 @@ body {
     top: 1690px;
     left: 10%;
     right: 10%;
+  }
+
+  /* section info about program price */
+  .program-cart {
+    width: 300px;
+    height: 420px;
+  }
+
+  .program-link {
+    margin-left: 20px;
+
+    width: 260px;
   }
 
   /* section application form */
@@ -1069,18 +1087,103 @@ body {
   }
 
   /* section info about teachers */
+  .teacher-img {
+    width: 360px;
+    height: 500px;
+  }
 
-  .teacher-three {
-    display: block;
+  .teacher-name {
+    padding: 0px;
+
+    font-size: 24px;
+    margin: 5px 0px 5px 0px;
+  }
+
+  .teacher-specialty,
+  .details-link {
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+  }
+
+  .details-link {
+    margin-top: 5px;
+  }
+
+  .teachers-scroll {
+    padding-left: 50px;
+    margin: 25px 0px 0px 0px;
   }
 
   /* section info about program price */
 
   .program-info {
     flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .program-cart {
+    margin: 0px 0px 40px 0px;
+
+    width: 280px;
+    height: 420px;
+  }
+
+  .program-text {
+    margin: 0px;
+
+    font-size: 18px;
+  }
+
+  .program-link {
+    margin-left: 0px;
+
+    width: 280px;
+    height: 80px;
+
+    font-size: 18px;
+  }
+
+  /* section application form */
+
+  .wrapper-discount {
+    padding-top: 85px;
+    padding-bottom: 85px;
+  }
+
+  .wrapper-program-info {
+    margin-bottom: 0px;
+  }
+
+  .discount-header {
+    font-size: 36px;
+  }
+
+  .discount-terms {
+    font-size: 20px;
+  }
+
+  .input-form,
+  .form-btn {
+    width: 400px;
+
+    font-size: 18px;
+  }
+
+  /* footer */
+
+  .footer {
+    padding: 40px 0px 70px 0px;
+  }
+
+  .company-phone {
+    font-size: 20px;
+  }
+
+  .company-name {
+    font-size: 16px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   /* header */
 
@@ -1125,6 +1228,16 @@ body {
     width: 550px;
     height: 620px;
     transform: translate(330px, -198px);
+  }
+
+  .teacher-three {
+    display: block;
+  }
+
+  .input-form,
+  .form-btn {
+    width: 500px;
+    height: 65px;
   }
 }
 
